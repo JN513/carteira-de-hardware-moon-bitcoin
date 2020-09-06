@@ -1,8 +1,8 @@
 {
    "keystore":{
       "ckcc_xpub":"lorem",
-      "xpub":"YOUR-ZPUB-FROM-BOWSER-EXPORT",
-      "label":"Bowser Wallet",
+      "xpub":"SUA-ZPUB-EXPORTADA-DA-MOON-WALLET",
+      "label":"Moon Walk",
       "ckcc_xfp":12345678,
       "type":"hardware",
       "hw_type":"coldcard",

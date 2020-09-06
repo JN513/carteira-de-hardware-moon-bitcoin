@@ -1,46 +1,47 @@
 
 
   <p align="center">
-<img src="https://i.imgur.com/PJXob0B.png" />
+<img src="https://i.imgur.com/RtfMYOS.png" />
 </p>
 
-<h1>BOWSER, DIY BITCOIN HARDWARE WALLET (BETA)</h1>
+<h1>MOON, HARDWARE WALLET DE BITCOIN DIY (BETA)</h1>
 
-Building your own hardware wallet is a bit like building a lightsaber, only really necessary if you want to be a Jedi.
+Criar sua própria hardwallet é um process divertido e repleto de aprendizado. Como o criador original deste projeto, <a href="https://github.com/arcbtc" target="_blank">Ben Arc</a>, bem colocou: "Construir sua hardwallet é como construir um sabre de luz, só é realmente necessário se você quer ser um Jedi".
 
-Now building hardware wallets is easy with the help of <a href="https://github.com/micro-bitcoin/uBitcoin">uBitcoin</a> an Arduino library created by Stepan Snigirev.
+E construir uma hardware wallet ficou mais fácil com a ajuda da <a href="https://github.com/micro-bitcoin/uBitcoin" target="_blank">uBitcoin</a> uma biblioteca Arduino criada por Stepan Snigirev - criador da <a href="https://www.youtube.com/playlist?list=PLgcVYwONyxmhvPW88vQ21XjpQ6ZmyXNI3" target="_blank">Specter DIY e Specter Desktop</a>.
 
-Building hardware wallets not only gives greater autonomy/liberty, it is an excellent excuse to get a deeper understanding of how bitcoin keys, seeds and signing works.
+Construir hardware wallets não é apenas um processo liberador, também é uma ótima desculpa para entender como funcionam as chaves, seeds e assinatura de transações Bitcoin.
 
 ## Tutorial
-https://www.youtube.com/watch?v=DG1zrlAVdys
+Original em inglês da Bowser Wallet: https://www.youtube.com/watch?v=DG1zrlAVdys
+Em breve tutorial em Português. Sendo gravado neste instante! :)
 
-## SD COMMANDS
+## COMANDOS SD
 
-Commands to enter into bowser.txt on the SD card.
+Comandos para inserir em um arquivo de texto moon.txt na pasta raiz do cartão SD:
 
-Wipe device completely, setup new wallet:<br/>
+1. Limpar o dispositivo e configurar uma nova carteira:<br/>
 ```HARD RESET```
 
-Restore from a seed backup:<br/>
+Restaurar de uma seed de backup:<br/>
 ```RESTORE husband behind shallow promote....```
     
-Sign an Electrum transaction:<br/>
+Assinar uma transação Electrum/Specter Desktop:<br/>
 ```SIGN 45505446ff00020000000001016cb....```
 
-## Installing Arduino
-Install Aruino IDE
+## Instalando o Arduino
+Instale o Arduino IDE
 https://www.arduino.cc/en/Guide/HomePage
 
-Install ESP32 Boards
+Instale as placas ESP32 no Arduino
 https://github.com/espressif/arduino-esp32/blob/master/docs/arduino-ide/boards_manager.md
 
-## Libraries Used
-- <a href="https://github.com/micro-bitcoin/uBitcoin">uBitcoin</a> (Download library from github and "Add Zip Library" in Arduino Library Manager) 
-- <a href="https://github.com/m5stack/M5Stack">M5Stack</a> (Install from "Library Manager" in Arduino)
-- [lvgl](https://lvgl.io/) (Install from "Library Manager" in Arduino, search as "lvgl", appears in the list as "lv_arduino")
-## Materials
-- M5Stack (grey one is better) 
-- SD card (not sure if size is an issue for larger SD, 16GB works fine) 
+## Bibliotecas utilizadas
+- <a href="https://github.com/micro-bitcoin/uBitcoin" target="_blank">uBitcoin</a> (Baixe a biblioteca do github e "Add Zip Library" no Library Manager do Arduino) 
+- <a href="https://github.com/m5stack/M5Stack" target="_blank">M5Stack</a> (Instale direto da "Library Manager" dentro do Arduino buscando por M5Stack)
+- [lvgl](https://lvgl.io/) (Instale direto na "Library Manager" do Arduino, busque por "lvgl", e instale apenas o "lv_arduino" - não o lvgl!)
+## Materiais
+- M5Stack (a versão grey - cinza - é melhor)
+- Cartão SD (idealmente de baixa capacidade, até 16GB funciona bem - pode ser que maiores também funcionem, você pode testar) 
 
 
