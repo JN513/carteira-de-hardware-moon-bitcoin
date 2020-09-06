@@ -25,6 +25,7 @@ Comandos para inserir em um arquivo de texto moon.txt na pasta raiz do cartão S
 
 1. Limpar o dispositivo e configurar uma nova carteira:<br/>
 ```HARD RESET```
+Depois do processo, lembre-se de apagar o arquivo moon.txt do microSD antes de reiniciar com ele inserido.
 
 2. Restaurar de uma seed de backup:<br/>
 ```RESTORE husband behind shallow promote....```
