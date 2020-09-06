@@ -1,7 +1,7 @@
 
 
   <p align="center">
-<img src="https://i.imgur.com/RtfMYOS.png" />
+<img src="https://i.imgur.com/sJRPQB7.png" />
 </p>
 
 <h1>MOON, HARDWARE WALLET DE BITCOIN DIY (BETA)</h1>
