@@ -12,9 +12,12 @@ E construir uma hardware wallet ficou mais fácil com a ajuda da <a href="https:
 
 Construir hardware wallets não é apenas um processo liberador, também é uma ótima desculpa para entender como funcionam as chaves, seeds e assinatura de transações Bitcoin.
 
+
 ## Tutorial
 Original em inglês da Bowser Wallet: https://www.youtube.com/watch?v=DG1zrlAVdys
+
 Em breve tutorial em Português. Sendo gravado neste instante! :)
+
 
 ## COMANDOS SD
 
@@ -28,6 +31,7 @@ Comandos para inserir em um arquivo de texto moon.txt na pasta raiz do cartão S
     
 3. Assinar uma transação Electrum/Specter Desktop:<br/>
 ```SIGN 45505446ff00020000000001016cb....```
+
 
 ## Instalando o Arduino
 Instale o Arduino IDE
@@ -44,6 +48,7 @@ https://github.com/espressif/arduino-esp32/blob/master/docs/arduino-ide/boards_m
 ## Materiais
 - M5Stack (a versão grey - cinza - é melhor)
 - Cartão SD (idealmente de baixa capacidade, até 16GB funciona bem - pode ser que maiores também funcionem, você pode testar) 
+
 
 ## Projeto original
 Visite o projeto original <a href="https://github.com/arcbtc/bowser-bitcoin-hardware-wallet" target="_blank">Bowser Bitcoin Wallet</a> se preferir a versão em inglês ou para verificar se está mais atualizada que esta versão traduzida e levemente adaptada.
