@@ -23,10 +23,10 @@ Comandos para inserir em um arquivo de texto moon.txt na pasta raiz do cartão S
 1. Limpar o dispositivo e configurar uma nova carteira:<br/>
 ```HARD RESET```
 
-Restaurar de uma seed de backup:<br/>
+2. Restaurar de uma seed de backup:<br/>
 ```RESTORE husband behind shallow promote....```
     
-Assinar uma transação Electrum/Specter Desktop:<br/>
+3. Assinar uma transação Electrum/Specter Desktop:<br/>
 ```SIGN 45505446ff00020000000001016cb....```
 
 ## Instalando o Arduino
