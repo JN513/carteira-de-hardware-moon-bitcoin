@@ -6,7 +6,7 @@
 
 <h1>MOON, HARDWARE WALLET DE BITCOIN DIY (BETA)</h1>
 
-Criar sua própria hardwallet é um processo divertido e repleto de aprendizado. Como o criador original deste projeto, <a href="https://github.com/arcbtc" target="_blank">Ben Arc</a>, bem colocou: "Construir sua hardwallet é como construir um sabre de luz, só é realmente necessário se você quer ser um Jedi".
+Criar sua própria hardwallet é um processo divertido e repleto de aprendizado. Como o criador original do projeto <a href="https://github.com/arcbtc/bowser-bitcoin-hardware-wallet" target="_blank">Bowser Bitcoin Wallet</a>, <a href="https://github.com/arcbtc" target="_blank">Ben Arc</a>, bem colocou: "Construir sua hardwallet é como construir um sabre de luz, só é realmente necessário se você quer ser um Jedi".
 
 E construir uma hardware wallet ficou mais fácil com a ajuda da <a href="https://github.com/micro-bitcoin/uBitcoin" target="_blank">uBitcoin</a> uma biblioteca Arduino criada por Stepan Snigirev - criador da <a href="https://www.youtube.com/playlist?list=PLgcVYwONyxmhvPW88vQ21XjpQ6ZmyXNI3" target="_blank">Specter DIY e Specter Desktop</a>.
 
