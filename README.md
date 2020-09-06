@@ -40,8 +40,10 @@ https://github.com/espressif/arduino-esp32/blob/master/docs/arduino-ide/boards_m
 - <a href="https://github.com/micro-bitcoin/uBitcoin" target="_blank">uBitcoin</a> (Baixe a biblioteca do github e "Add Zip Library" no Library Manager do Arduino) 
 - <a href="https://github.com/m5stack/M5Stack" target="_blank">M5Stack</a> (Instale direto da "Library Manager" dentro do Arduino buscando por M5Stack)
 - [lvgl](https://lvgl.io/) (Instale direto na "Library Manager" do Arduino, busque por "lvgl", e instale apenas o "lv_arduino" - não o lvgl!)
+
 ## Materiais
 - M5Stack (a versão grey - cinza - é melhor)
 - Cartão SD (idealmente de baixa capacidade, até 16GB funciona bem - pode ser que maiores também funcionem, você pode testar) 
 
-
+## Projeto original
+Visite o projeto original <a href="https://github.com/arcbtc/bowser-bitcoin-hardware-wallet" target="_blank">Bowser Bitcoin Wallet</a> se preferir a versão em inglês ou para verificar se está mais atualizada que esta versão traduzida e levemente adaptada.
