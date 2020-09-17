@@ -33,7 +33,7 @@ Comandos para inserir em um arquivo de texto moon.txt na pasta raiz do cartão S
 
 
 ## Hardware necessário (Lista de compras)
-- M5Stack (a versão grey - cinza - é melhor)
+- M5Stack (ESP32 GREY Development Kit with 9-Axis Sensor)
 - Cartão microSD (idealmente de baixa capacidade, até 16GB funciona bem com certeza)
 
 
