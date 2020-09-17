@@ -273,7 +273,7 @@ void loop() {
         M5.Lcd.fillScreen(BLACK);
         M5.Lcd.setCursor(0, 100);
         M5.Lcd.setTextSize(2);
-        M5.Lcd.println("   Salva no SD");
+        M5.Lcd.println("  Maravilha! Salva no SD");
         M5.Lcd.println("");
         M5.Lcd.setTextSize(2);
         M5.Lcd.setCursor(0, 220);
