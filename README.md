@@ -1,6 +1,4 @@
-
-
-  <p align="center">
+<p align="center">
 <img src="https://i.imgur.com/sJRPQB7.png" />
 </p>
 
@@ -16,7 +14,7 @@ Construir hardware wallets não é apenas um processo liberador, também é uma 
 ## Tutorial
 Original em inglês da Bowser Wallet: https://www.youtube.com/watch?v=DG1zrlAVdys
 
-Em breve tutorial em Português. Sendo gravado neste instante! :)
+Tutorial em Português:  https://www.youtube.com/watch?v=5dQ8nCrkdpw
 
 
 ## COMANDOS SD
@@ -34,6 +32,11 @@ Comandos para inserir em um arquivo de texto moon.txt na pasta raiz do cartão S
 ```SIGN 45505446ff00020000000001016cb....```
 
 
+## Hardware necessário (Lista de compras)
+- M5Stack (a versão grey - cinza - é melhor)
+- Cartão microSD (idealmente de baixa capacidade, até 16GB funciona bem com certeza)
+
+
 ## Instalando o Arduino
 Instale o Arduino IDE
 https://www.arduino.cc/en/Guide/HomePage
@@ -44,11 +47,7 @@ https://github.com/espressif/arduino-esp32/blob/master/docs/arduino-ide/boards_m
 ## Bibliotecas utilizadas
 - <a href="https://github.com/micro-bitcoin/uBitcoin" target="_blank">uBitcoin</a> (Baixe a biblioteca do github e "Add Zip Library" no Library Manager do Arduino) 
 - <a href="https://github.com/m5stack/M5Stack" target="_blank">M5Stack</a> (Instale direto da "Library Manager" dentro do Arduino buscando por M5Stack)
-- [lvgl](https://lvgl.io/) (Instale direto na "Library Manager" do Arduino, busque por "lvgl", e instale apenas o "lv_arduino" - não o lvgl!)
-
-## Materiais
-- M5Stack (a versão grey - cinza - é melhor)
-- Cartão SD (idealmente de baixa capacidade, até 16GB funciona bem - pode ser que maiores também funcionem, você pode testar) 
+- [lvgl](https://lvgl.io/) (Instale direto na "Library Manager" do Arduino, busque por "lvgl", e instale apenas o "lv_arduino" - não o lvgl!) 
 
 
 ## Projeto original
