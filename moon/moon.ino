@@ -273,7 +273,7 @@ void loop() {
         M5.Lcd.fillScreen(BLACK);
         M5.Lcd.setCursor(0, 100);
         M5.Lcd.setTextSize(2);
-        M5.Lcd.println("  Maravilha! Salva no SD");
+        M5.Lcd.println("  All right! Salva no SD");
         M5.Lcd.println("");
         M5.Lcd.setTextSize(2);
         M5.Lcd.setCursor(0, 220);
@@ -514,7 +514,7 @@ void seedmaker(){
   file.print(seedgeneratestr.substring(0, seedgeneratestr.length() - 1) + "\n");
   file.close();
   
-  String seedgen = "Guarde as 24 palavras abaixo em um lugar seguro: \n" + seedgeneratestr + "\n\nÉ recomendável excluir este arquivo ou manter sempre offline. Para saber mais sobre as palavras de seed, acesse https://bitcoinheiros.com/duvidas-sobre-carteiras-bitcoin \n\nCOMANDOS ADICIONAIS: \n\n1.Para restaurar esta seed em sua carteira, crie um arquivo chamado 'moon.txt' no cartão SD e inclua a frase 'RESTORE' (sem aspas) e as 24 palavras acima separadas por 1 espaço cada. \n\n2.Para assinar uma transação, copie a transação criada na Electrum e cole ao lado da palavra 'SIGN' (sem aspas) no arquivo 'moon.txt' em seu cartão SD. \n\n3. Para reiniciar a carteira, escreva 'HARD RESET' (sem aspas) no arquivo 'moon.txt' na pasta base do cartão micro SD e reinicie o dispositivo";
+  String seedgen = "Guarde as 24 palavras abaixo em um lugar seguro: \n" + seedgeneratestr + "\n\nÉ recomendável excluir este arquivo ou manter sempre offline. Para saber mais sobre as palavras de seed, acesse https://bitcoinheiros.com/duvidas-sobre-carteiras-bitcoin \n\nCOMANDOS ADICIONAIS: \n\n1. Para restaurar esta seed em sua carteira, crie um arquivo chamado 'moon.txt' no cartão SD e inclua a frase 'RESTORE' (sem aspas) e as 24 palavras acima separadas por 1 espaço cada. \n\n2. Para assinar uma transação, copie a transação criada na Electrum e cole ao lado da palavra 'SIGN' (sem aspas) no arquivo 'moon.txt' em seu cartão SD. \n\n3. Para reiniciar a carteira, escreva 'HARD RESET' (sem aspas) no arquivo 'moon.txt' na pasta base do cartão micro SD e reinicie o dispositivo";
   int str_len = seedgen.length() + 1; 
   char char_array[str_len];
   seedgen.toCharArray(char_array, str_len);
