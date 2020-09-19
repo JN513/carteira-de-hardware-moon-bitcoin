@@ -52,3 +52,6 @@ https://github.com/espressif/arduino-esp32/blob/master/docs/arduino-ide/boards_m
 
 ## Projeto original
 Visite o projeto original <a href="https://github.com/arcbtc/bowser-bitcoin-hardware-wallet" target="_blank">Bowser Bitcoin Wallet</a> se preferir a versão em inglês ou para verificar se está mais atualizada que esta versão traduzida e levemente adaptada.
+
+## Botões do M5Stack
+<p align="left"><img src="https://i.imgur.com/DqPu6Xl.png"></p>
