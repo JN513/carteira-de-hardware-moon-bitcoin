@@ -55,3 +55,7 @@ Visite o projeto original <a href="https://github.com/arcbtc/bowser-bitcoin-hard
 
 ## Botões do M5Stack
 <p align="left"><img src="https://i.imgur.com/DqPu6Xl.png"></p>
+
+## Isenção de responsabilidade
+Leia a <a href="https://github.com/bitcoinheiro/carteira-de-hardware-moon-bitcoin/blob/master/LICENSE" target="_blank">Licença de Uso</a>.
+O SOFTWARE É FORNECIDO "NO ESTADO EM QUE SE ENCONTRA", SEM QUALQUER TIPO DE GARANTIA, EXPRESSA OU IMPLÍCITA. USE COM RESPONSABILIDADE E VERIFIQUE O SETUP ANTES DE UTILIZAR COM FUNDOS.
